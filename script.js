@@ -1,18 +1,14 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.querySelector(".menu-toggle");
-    const menuContainer = document.querySelector(".menu-container");
-    const menuList = document.querySelector(".menu-list");
-    
-    menuToggle.addEventListener("click", function () {
-        menuContainer.classList.toggle("active");
-    });
-
-    document.addEventListener("click", function (event) {
-        if (!menuContainer.contains(event.target) && menuContainer.classList.contains("active")) {
-            menuContainer.classList.remove("active");
-        }
-    });
-});
+document.addEventListener("DOMContentLoaded", () => {
+    // Efeito de rolagem suave para os links do menu
+    document.querySelectorAll("nav ul li a").forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            document.getElementById(targetId).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
 
 
     // Efeito interativo nas capas das obras
