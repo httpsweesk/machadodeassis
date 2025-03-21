@@ -1,3 +1,120 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Menu Responsivo */
+.menu-container {
+    position: relative;
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-toggle {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+.menu-list li {
+    padding: 10px 0;
+}
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-container.active .menu-list {
+    display: block;
+}
+
+/* Header */
+header {
+    background: #444;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Galeria de Obras */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.card {
+    width: 45%;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Seções */
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.bio-images img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+    
+    .menu-container {
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
 /* Reset */
 body {
     font-family: Arial, sans-serif;
