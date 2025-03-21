@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Machado de Assis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu-list">
+            <li><a href="https://pt.wikipedia.org/wiki/Machado_de_Assis" target="_blank">Machado de Assis</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Lygia_Fagundes_Telles" target="_blank">Lygia Fagundes Telles</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Euclides_da_Cunha" target="_blank">Euclides da Cunha</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Lima_Barreto" target="_blank">Lima Barreto</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Augusto_dos_Anjos" target="_blank">Augusto dos Anjos</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Oswald_de_Andrade" target="_blank">Oswald de Andrade</a></li>
+        </ul>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1>Machado de Assis</h1>
+            <img src="machado.png" alt="Machado de Assis" class="profile-pic">
+            <nav>
+                <ul>
+                    <li><a href="#bio">Biografia</a></li>
+                    <li><a href="#obras">Obras</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#timeline">Linha do Tempo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- BIOGRAFIA -->
+    <section id="bio" class="section">
+        <h2>Biografia</h2>
+        <div class="bio-box">
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Joaquim Maria Machado de Assis</li>
+                        <li>Nascimento: 21 de junho de 1839, Rio de Janeiro, Brasil</li>
+                        <li>Falecimento: 29 de setembro de 1908, Rio de Janeiro, Brasil</li>
+                        <li>Escritor, jornalista, cronista, poeta, dramaturgo e crítico literário</li>
+                        <li>Movimento literário: Realismo (principalmente), mas também escreveu obras no Romantismo e Naturalismo</li>
+                        <li>Principal característica: Uso da ironia, pessimismo, introspecção psicológica e narradores não confiáveis</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="bio-images">
+                <a href="https://pt.wikipedia.org/wiki/Machado_de_Assis" target="_blank">
+                    <img src="jovem.png" alt="Machado jovem" id="machado-jovem">
+                </a>
+                <a href="https://www.academia.org.br/academicos/machado-de-assis" target="_blank">
+                    <img src="abl.jpg " alt="Machado na ABL" id="abl">
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- GALERIA DE OBRAS -->
+    <section id="obras" class="section">
+        <h2>Romances</h2>
+        <div class="gallery">
+            <div class="card" data-link="https://www.amazon.com.br/Mem%C3%B3rias-P%C3%B3stumas-Br%C3%A1s-Cubas-Exclusiva/dp/658021001X">
+                <img src="Capa Memórias Póstumas de Brás Cubas.jpg" alt="Capa Memórias Póstumas de Brás Cubas" class="book-cover">
+                <p>Memórias Póstumas de Brás Cubas</p>
+            </div>
+            <div class="card" data-link="https://www.amazon.com.br/DOM-CASMURRO-CL%C3%81SSICOS-LITERATURA-BRASILEIRA-ebook/dp/B08DFNC5SQ">
+                <img src="Dom.jpg" alt="Capa Dom Casmurro" class="book-cover">
+                <p>Dom Casmurro</p>
+            </div>
+            <div class="card" data-link="https://www.amazon.com.br/Quincas-Borba-Machado-Assis/dp/6559100553">
+                <img src="Capa Quincas Borba.jpg" alt="Quincas Borba" class="book-cover">
+                <p>Quincas Borba</p>
+            </div>
+            <div class="card" data-link="https://www.amazon.com.br/Esa%C3%BA-Jac%C3%B3-Machado-Assis/dp/8572324933">
+                <img src="esau.jpg" alt="Quincas Borba" class="book-cover">
+                <p>Esaú e Jacó</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA DE OBRAS -->
+    <section id="obras" class="section">
+        <h2>Contos</h2>
+        <div class="gallery">
+            <div class="card" data-link="https://www.amazon.com.br/Alienista-Edi%C3%A7%C3%A3o-Luxo-Machado-Assis/dp/6587435521/ref=pd_lpo_d_sccl_1/135-7194579-4915445?pd_rd_w=HquPM&content-id=amzn1.sym.a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_p=a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_r=DNE4HPV60VTJC64Z47Z6&pd_rd_wg=KInQZ&pd_rd_r=3894489d-d470-41e6-8de3-26ee6c022421&pd_rd_i=6587435521&psc=1">
+                <img src="alien.jpg" alt="Capa Memórias Póstumas de Brás Cubas" class="book-cover">
+                <p>O Alienista</p>
+            </div>
+            <div class="card" data-link="https://www.amazon.com.br/Missa-do-galo-Machado-Assis/dp/8550405094">
+                <img src="missa.jpg" alt="Capa Dom Casmurro" class="book-cover">
+                <p>Missa do Galo</p>
+            </div>
+            <div class="card" data-link="https://www.amazon.com.br/Cartomante-Machado-Assis-ebook/dp/B08CN588H4/ref=sr_1_4?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=PHBNUN09FRL4&dib=eyJ2IjoiMSJ9.yUZyNxNvZeDPIC2AJKryuXLj9xPZnzJSq8hp_MEJEQofvfHkfk4ONs-XDvIfCwWNUXF4umPnJLGRu2yIwhZSuRgOSFZ0HGqeHrt7SY5MseDUohYPT7XhI-_X5Jjem7Wsllu5ENKDUK1hfA6Vz3GglUex2XUArTzbZNBm8NK1xMaalchMEsufpIi7n0XlsARkaZVRVAI-p86o_xE7PhaTNcjwShRoWZJ7IpI9D61G_pA.7EdIzOHB5dVeWf_8VmMW8PedPxUvduG8Ed_VAeBD5pg&dib_tag=se&keywords=Cartomante&qid=1742527958&s=books&sprefix=cartomante%2Cstripbooks%2C212&sr=1-4">
+                <img src="a carto.jpg" alt="Quincas Borba" class="book-cover">
+                <p>A Cartomante</p>
+            </div>
+            <div class="card" data-link="https://www.amazon.com.br/Uns-bra%C3%A7os-Machado-Assis/dp/8550405124/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2ILCMBWHVHGPR&dib=eyJ2IjoiMSJ9.sTJrD2hlqPg5K76LdDlQK6ibS-BsbdJRCwqyR5VFa1RVIAek7wm1k9AO-emvnGZPYC037dAcIRl9-nBwGuxnqeLmwPFSaxIzMujZxXN_amYjUBEq8eBlIYmAVlHJZVVVmWkoyan_4AMx41J7fL9m8m1tQwc1PU4nbJNM_Ro6hnvGFs8vvrE2tjg3lnlTnjwBZRqZS9SVnSjTFn2YlBdyDlAkMYOjRtLSfjQCJCL625c.NQ8PvEfDDU5pdVq9kmlM4lZsFS99HS6lWuKtpabBSz4&dib_tag=se&keywords=uns+bra%C3%A7os&qid=1742528001&s=books&sprefix=uns+bra%C3%A7os+%2Cstripbooks%2C374&sr=1-1">
+                <img src="uns.jpg" alt="Quincas Borba" class="book-cover">
+                <p>Uns Braços</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- GALERIA DE OBRAS -->
+        <section id="obras" class="section">
+            <h2>Poesia</h2>
+            <div class="gallery">
+                <div class="card" data-link="https://www.amazon.com.br/Cris%C3%A1lidas-Machado-Assis/dp/8572327835">
+                    <img src="cris.jpg" alt="Capa Memórias Póstumas de Brás Cubas" class="book-cover">
+                    <p>Crisálidas</p>
+                </div>
+                <div class="card" data-link="https://www.amazon.com.br/Falenas-Machado-Assis/dp/8572327827/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2ZRWEQFTOG2HB&dib=eyJ2IjoiMSJ9.ob0EqmdGGgF3BgvufCYRKJysBE_F9ymbz1GqMRM6oLH2Ovph0GbnZFIKJrD0AyffK9MkcMl_exTqxSlW9qlwb7Z1wfn_nHEoW37738-1g2S3XmfM0WN09yO2r-G4CaRPvArmmtZPkJc4o21O2ml32FSaeACt2XAYCZpvtSw7oJQYgiHVoZX1B2Gq0BTKCHjivTfpPsdOckaNLaWe5XznKLQP1dbfH56_B9CTaByMqN0.ou_4npSTHyVQkQ1XvhJeA18s-J2jVRVJc5pBQoWf2XM&dib_tag=se&keywords=Falenas&qid=1742527734&s=books&sprefix=falenas%2Cstripbooks%2C190&sr=1-1">
+                    <img src="faleras.jpg" alt="Capa Dom Casmurro" class="book-cover">
+                    <p>Falenas</p>
+                </div>
+                <div class="card" data-link="https://www.amazon.com.br/Americanas-Machado-Assis/dp/8572327843/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1EMRUX91L6TBO&dib=eyJ2IjoiMSJ9.ZKswqnW41rdQbziJ1hI8wyAH5eINbbYkVysba0GSlsgZx4jK_Ak_OxQ6njtIgwU1wj03-R1Q0BxmOEVYvqX5kXApxAhwjmhAIqRK8kc1aKAtoOyjzo9-pD45TWBUclEhlUBGkHoFwZrNMHtbx4H3DchiXld4epi50HjGOQ-FbZGJysU9HhcP87K4flh9kJ6jrJq9MuNiYkhEBsW3atn87VwCuZIae4x9lP2LkpblNGO_rgQPJf94_wZAl8Etfzk7iRgd0lzaJ4Clw4Lsuw703ThVNJK0YXYuQx47WutTnZF7T6xTg570q7qr_4pOZhG9GEHbr8S19ykQttQ0gdOqGOveVwr_nhruJcc9rh4ckngVNIxzICjrMNrHP1M7CtXEnnlg7BFG9DIexdgdr_wvtozI5BzL1JmOs1IZtVIEz0VupCaXVQpXU0JAwSdIGgd2.aLxFmNzVniYJ6u47CMXZ9EejUH5AuSPkJiydH1AUM6w&dib_tag=se&keywords=americanas+machado+de+assis&qid=1742527768&sprefix=americanas+machado+de+assis+todavia%2Caps%2C304&sr=8-1">
+                    <img src="americanas.jpg" alt="Quincas Borba" class="book-cover">
+                    <p>Americanas</p>
+                </div>
+                <div class="card" data-link="https://www.amazon.com.br/Ocidentais-Machado-Assis/dp/1511735716">
+                    <img src="ocidentais.jpg" alt="Quincas Borba" class="book-cover">
+                    <p>Ocidentais</p>
+                </div>
+            </div>
+        </section>
+
+    
+
+    <section id="curiosidades" class="section">
+        <h2>Curiosidades</h2>
+        <div class="curiosidades-box">
+            <ul>
+                <li>Fundador da Academia Brasileira de Letras.</li>
+                <li>Era gago e epilético, o que influenciou sua introspecção.</li>
+                <li>Casado com Carolina Augusta Xavier de Novais, seu grande amor.</li>
+            </ul>
+        </div>
+    </section>
+
+    
+    
+    <!-- LINHA DO TEMPO -->
+    <section id="timeline" class="section">
+        <h2>Linha do Tempo</h2>
+        <div class="timeline">
+            <div class="line"></div>
+            <div class="event show" data-year="1839">Origem humilde</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Machado nasceu em uma família pobre e mestiça. Seu pai era pintor de paredes e sua mãe, lavadeira.</li>
+                        <li>Teve pouca escolaridade formal, mas foi autodidata e aprendeu diversas línguas, incluindo francês, inglês e alemão.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1855">Gago e epilético</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Desde a infância, Machado de Assis teve crises epilépticas e era gago. Isso o tornava introvertido, o que muitos acreditam ter influenciado sua escrita introspectiva.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1897">Primeiro presidente da ABL</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Em 1897, fundou a Academia Brasileira de Letras (ABL) e se tornou seu primeiro presidente, permanecendo no cargo até sua morte.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1908">Casamento duradouro</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Casou-se com Carolina Augusta Xavier de Novais, uma portuguesa, em 1869. Ela foi seu grande amor e apoio intelectual. Após a morte dela, Machado escreveu um emocionante poema de luto chamado "A Carolina".</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1908">Autor de um dos primeiros livros realistas do Brasil</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Seu romance "Memórias Póstumas de Brás Cubas" (1881) marcou a transição do Romantismo para o Realismo no Brasil e é considerado um dos maiores livros da literatura mundial.</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event" data-year="1908">Narradores incomuns</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Inovou ao criar narradores como Brás Cubas, que conta sua história depois de morto, e Bento Santiago, de "Dom Casmurro", um narrador pouco confiável que levanta dúvidas sobre a traição de Capitu..</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="event show" data-year="1839">Crítico feroz da sociedade</div>
+            <section id="curiosidades" class="section">
+                <div class="curiosidades-box">
+                    <ul>
+                        <li>Machado nasceu em uma família pobre e mestiça. Seu pai era pintor de paredes e sua mãe, lavadeira.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        
+        </div>
+        </div>
+    </section>
+
+</body>
+</html>
